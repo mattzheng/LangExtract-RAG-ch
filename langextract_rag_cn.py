@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 # aliyun
 from langextract.providers.openai import OpenAILanguageModel
 
-apikey = 'sk-81f45edbfae243c3bfd2d8ff82f034ac'
+apikey = 'sk-xxxx' # 修改成你自己的key
 model= OpenAILanguageModel(
             model_id='qwen-plus',
             base_url='https://dashscope.aliyuncs.com/compatible-mode/v1',
